@@ -1,0 +1,65 @@
+/*
+been blocked by CORS poilcy
+
+@font-face {
+  font-family: 'MingLiU';
+  src: url('https://www.fontsaddict.com/fontface/mingliu.TTF');
+} 80, 19, 69
+*/
+
+body {
+	background: rgb(60, 20, 50);
+	color: rgb(216, 163, 123);
+	font-family: KaiTi;
+}
+
+header {
+	padding-left: 150px;
+	border-bottom: 3px dotted rgb(161, 163, 154);
+}
+
+footer {
+	padding-left: 150px;
+	border-top: 3px dotted rgb(161, 163, 154);
+	clear: both;
+}
+
+main {
+	padding-left: 150px;
+}
+
+section {
+	clear: both;
+	padding-bottom: 0px;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+h3 {
+	font-style: italic;
+}
+
+p {
+	padding-right: 400px;
+}
+
+.cover {
+	width: 230px;
+	height: 330px;
+	float: left;
+	padding-right: 20px;
+}
+
+a /*links*/ {
+	color: rgb(167, 212, 228);
+}
+
+#tt /*testicular torsion gif*/{
+	
+}
