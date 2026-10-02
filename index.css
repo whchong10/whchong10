@@ -46,7 +46,7 @@ h3 {
 }
 
 p {
-	padding-right: 400px;
+	margin-right: 400px;
 }
 
 .cover {
@@ -66,4 +66,17 @@ a /*links*/ {
 
 #tt /*testicular torsion gif*/{
 	
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+	margin-right: 400px;
+}
+
+td {
+    border: 1px solid rgb(216, 163, 123);
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
 }
