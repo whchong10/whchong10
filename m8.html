@@ -12,18 +12,75 @@
 		</header>
 		<main>
 			<section>
-				<h2 class="title">Learning from a Master 28/8/2026</h2>
-				<img class="camera" src="images/co2-fossil-plus-land-use.webp">
-				<p><i>Ritchie, H., & Roser, M. (2026, June). CO₂ emissions from fossil fuels and land-use change. Our World in Data. https://ourworldindata.org/grapher/co2-fossil-plus-land-use </i></p>
+				<h2 class="title">South East Asia 2/10/2026</h2>
+				<img class="camera" src="images/map.png">
 			</section>
 			<section>
-				<p>I imported the data and examined it with pandas. I started off with a basic 3 line subplot graph. Next I adjusted the axis to match the original. Next I used Paint to colour match the colours used in the master data visualisation. I also added the horizontal grid lines in the background and remove the borders from the graph. Next i added the floating annotations for each line. Next up was adding the titles and subtitles for the data visualisation, spent lots of time tweaking the spacing to get it to match. Last thing to do was to switch the colour palette, I used <a href="https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3">ColourBrewer</a> for this.</p>
+				<p>i decided to make a choropleth map showing how population is distributed across South East Asia in 2023. Used the same database from Our World in Data and filtered it to the 11 SEA countries. Someone recommended Natural Earth on Reddit. I had to use the 1:50m resolution data because the 1:110m dataset did not include Singapore. Filtered out the non-SEA countries from the map data and merged it with the population dataset.</p>
 			</section>
 			<section>
-				<h3>My rendition</h3>
-				<img class="camera" src="images/my_rendition.webp">
-				<h3>My coloured rendition</h3>
-				<img class="camera" src="images/my_coloured_rendition.webp">
+				<h3>Data Card</h3>
+				<table>
+					<tr>
+						<!-- <a href=""></a> -->
+						<td>Title</td>
+						<td>Population across South East Asia (2023) </td>
+					</tr>
+					<tr>
+						<td>Summary</td>
+						<td>
+							This data visualisation shows a choropleth map showing the total population across the 11 South East Asian countries in 2023. Population is represented with a colour gradient scale, with the darker colours indicating countries with larger populations.
+						</td>
+					</tr>
+					<tr>
+						<td>Data Sources</td>
+						<td>
+							<b>Population</b>
+
+							<br><br>
+							Kees, K. G. (2023). History database of the global environment 3.3 - data publication platform of Utrecht University. Yoda.Uu.Nl. Retrieved October 2, 2026, from <a href="https://doi.org/DOI:10.24416/UU01-AEZZIT">https://doi.org/DOI:10.24416/UU01-AEZZIT</a> 
+
+							<br><br>
+							GD003. (n.d.). GapMinder. Retrieved October 2, 2026, from <a href="https://www.gapminder.org/data/documentation/gd003/">https://www.gapminder.org/data/documentation/gd003/</a> 
+
+							<br><br>
+							United Nations. (2024). World population prospects. Un.Org. Retrieved October 2, 2026, from <a href="https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used">https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used</a>
+
+							<br><br>
+							<b>Map</b>
+
+							<br><br>
+							Natural earth - Countries - free vector and raster map data at 1:10M, 1:50M, and 1:110M scales. (2009, September 21). Natural Earth. Retrieved October 2, 2026, from <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Mapping</td>
+						<td>
+							Colour: Total population in 2023
+						</td>
+					</tr>
+					<tr>
+						<td>Important Notes</td>
+						<td>
+							Singapore is there I promise
+						</td>
+					</tr>
+					<tr>
+						<td>Access</td>
+						<td>
+							<b>Population</b>
+
+							<br><a href="https://ourworldindata.org/grapher/population?tab=discrete-bar&time=latest&country=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&mapSelect=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&globe=1&globeRotation=7.46%2C113.96&globeZoom=2.5&overlay=download-data ">https://ourworldindata.org/grapher/population?tab=discrete-bar&time=latest&country=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&mapSelect=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&globe=1&globeRotation=7.46%2C113.96&globeZoom=2.5&overlay=download-data </a>
+
+							<br><br><b>Map</b>
+							<br><a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/</a>
+						</td>
+					</tr>
+				</table>
+			</section>
+			<section>
+				<h3>Acknowledgement of generative "AI" use</h3>
+				<p>I used ChatGPT (OpenAI, 2026) in module 8 to help troubleshoot my python code, specificly the position of the texts in the visualisation.</p>
 			</section>
 		</main>
 		<footer>

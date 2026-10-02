@@ -12,18 +12,84 @@
 		</header>
 		<main>
 			<section>
-				<h2 class="title">Learning from a Master 28/8/2026</h2>
-				<img class="camera" src="images/co2-fossil-plus-land-use.webp">
-				<p><i>Ritchie, H., & Roser, M. (2026, June). CO₂ emissions from fossil fuels and land-use change. Our World in Data. https://ourworldindata.org/grapher/co2-fossil-plus-land-use </i></p>
+				<h2 class="title">*DJ Khaled voice* another one 2/10/2026</h2>
+				<img class="camera" src="images/faceted.png">
 			</section>
 			<section>
-				<p>I imported the data and examined it with pandas. I started off with a basic 3 line subplot graph. Next I adjusted the axis to match the original. Next I used Paint to colour match the colours used in the master data visualisation. I also added the horizontal grid lines in the background and remove the borders from the graph. Next i added the floating annotations for each line. Next up was adding the titles and subtitles for the data visualisation, spent lots of time tweaking the spacing to get it to match. Last thing to do was to switch the colour palette, I used <a href="https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3">ColourBrewer</a> for this.</p>
+				<p>I decided to add population into the mix because it's a clear connection between human's rise in numbers and the subsequent pollution. Just had to separate the 2 graphs with ax and ax2, and then use the same code for the CO2 emissions for the population. I had more trouble making the data card.</p>
 			</section>
 			<section>
-				<h3>My rendition</h3>
-				<img class="camera" src="images/my_rendition.webp">
-				<h3>My coloured rendition</h3>
-				<img class="camera" src="images/my_coloured_rendition.webp">
+				<h3>Data Card</h3>
+				<table>
+					<tr>
+						<!-- <a href=""></a> -->
+						<td>Title</td>
+						<td>Global CO₂ emissions and population (1850-2023)</td>
+					</tr>
+					<tr>
+						<td>Summary</td>
+						<td>
+							This data visualisation shows the global carbon dioxide emissions from fossil fuels and land-use change along with global population growth from 1850 to 2023.
+							<br>The top panel shows emissions from fossil fuels, land-use change and both combined. The bottom panel shoes global population over the same period. 
+						</td>
+					</tr>
+					<tr>
+						<td>Data Sources</td>
+						<td>
+							<b>CO₂ emissions</b>
+
+							<br><br>
+							Andrew, R. M., & Peters, G. P. (2025). The Global Carbon Project’s fossil CO2 emissions dataset. Zenodo. Retrieved October 2, 2026, from <a href="https://doi.org/10.5281/zenodo.17417124">https://doi.org/10.5281/zenodo.17417124</a> 
+
+							<br><br>
+							<b>Population</b>
+
+							<br><br>
+							Kees, K. G. (2023). History database of the global environment 3.3 - data publication platform of Utrecht University. Yoda.Uu.Nl. Retrieved October 2, 2026, from <a href="https://doi.org/DOI:10.24416/UU01-AEZZIT">https://doi.org/DOI:10.24416/UU01-AEZZIT</a> 
+
+							<br><br>
+							GD003. (n.d.). GapMinder. Retrieved October 2, 2026, from <a href="https://www.gapminder.org/data/documentation/gd003/">https://www.gapminder.org/data/documentation/gd003/</a> 
+
+							<br><br>
+							United Nations. (2024). World population prospects. Un.Org. Retrieved October 2, 2026, from <a href="https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used">https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used</a> 
+						</td>
+					</tr>
+					<tr>
+						<td>Mapping</td>
+						<td>
+							Shared x-axis: year 
+							<br>Top panel y-axis: annual CO₂ emissions (tonnes per year) 
+							<br>Bottom panel y-axis: Global population, people 
+							
+							<br><br>Blue: Total (fossil fuels and land-use change) 
+							<br>Brown: Fossil fuels 
+							<br>Orange: Land-use change 
+							<br>Black: Population 
+						</td>
+					</tr>
+					<tr>
+						<td>Important Notes</td>
+						<td>
+							Emissions from land-use change can be positive or negative depending on whether carbon is emitted or sequestered. 
+							
+							<br><br>Population data is comprised of multiple sources, with heavy processing done by Our World in Data. They talk about it here: <a href="https://ourworldindata.org/population-sources">https://ourworldindata.org/population-sources</a> 
+							
+							<br><br>Population.csv only goes up to the year 2023, while CO2.csv goes up to the year 2024.  
+						</td>
+					</tr>
+					<tr>
+						<td>Access</td>
+						<td>
+							CO₂ emissions
+
+							<br><a href="https://ourworldindata.org/grapher/co2-fossil-plus-land-use?overlay=download-data">https://ourworldindata.org/grapher/co2-fossil-plus-land-use?overlay=download-data</a> 
+
+							<br><br><b>Population</b>
+
+							<br><a href="https://ourworldindata.org/grapher/population?time=1850..2023&country=~OWID_WRL&overlay=download-data">https://ourworldindata.org/grapher/population?time=1850..2023&country=~OWID_WRL&overlay=download-data</a>
+						</td>
+					</tr>
+				</table>
 			</section>
 		</main>
 		<footer>
