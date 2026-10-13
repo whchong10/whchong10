@@ -80,3 +80,8 @@ td {
     text-align: left;
     vertical-align: top;
 }
+
+iframe {
+	width: 80%;
+	height: 700px;
+}
