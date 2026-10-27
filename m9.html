@@ -26,63 +26,83 @@
 					<tr>
 						<!-- <a href=""></a> -->
 						<td>Title</td>
-						<td>Population across South East Asia (2023) </td>
+						<td>Letterboxd Rating Diary</td>
 					</tr>
 					<tr>
 						<td>Summary</td>
 						<td>
-							This data visualisation shows a choropleth map showing the total population across the 11 South East Asian countries in 2023. Population is represented with a colour gradient scale, with the darker colours indicating countries with larger populations.
+							This interactive scatter plot visualises my personal movie watching diary through 2026. Each point represents a movie I watched and is plotted according to the watched date and my rating on a 5-star scale.
+
+							<br><br>
+							Movies are colour coded by viewing location, either watched at the cinemas or watched at home. The interactive date selector allows viewers to switch between monthly and the entire period of 2026. Hovering over individual points shows additional information about each movie.
 						</td>
 					</tr>
 					<tr>
 						<td>Data Sources</td>
 						<td>
-							<b>Population</b>
+							Chong, W. H. (2026). <i>Letterboxd rating diary</i> [Personal dataset].
 
 							<br><br>
-							Kees, K. G. (2023). History database of the global environment 3.3 - data publication platform of Utrecht University. Yoda.Uu.Nl. Retrieved October 2, 2026, from <a href="https://doi.org/DOI:10.24416/UU01-AEZZIT">https://doi.org/DOI:10.24416/UU01-AEZZIT</a> 
+
+							<a href="https://drive.google.com/file/d/1d-WFMnggzhC4pa8gBo099Puk9GghjP3m/view?usp=sharing">https://drive.google.com/file/d/1d-WFMnggzhC4pa8gBo099Puk9GghjP3m/view?usp=sharing</a>
 
 							<br><br>
-							GD003. (n.d.). GapMinder. Retrieved October 2, 2026, from <a href="https://www.gapminder.org/data/documentation/gd003/">https://www.gapminder.org/data/documentation/gd003/</a> 
-
-							<br><br>
-							United Nations. (2024). World population prospects. Un.Org. Retrieved October 2, 2026, from <a href="https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used">https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used</a>
-
-							<br><br>
-							<b>Map</b>
-
-							<br><br>
-							Natural earth - Countries - free vector and raster map data at 1:10M, 1:50M, and 1:110M scales. (2009, September 21). Natural Earth. Retrieved October 2, 2026, from <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/</a>
+							The data was collected from my personal movie watching diary on Letterboxd.
 						</td>
 					</tr>
 					<tr>
 						<td>Mapping</td>
 						<td>
-							Colour: Total population in 2023
+							x-axis: Watched date
+							<br>
+							y-axis: Ratings
+
+							<br><br>
+
+							Blue: Movies watched at home
+							<br>
+							Red: Movies watched at cinemas
+
+							<br><br>
+							Hover information: Displays the movie title, release year, rating, tags, and watched date.
+
+							<br>
+							Date Buttons: Allows the viewer to adjust the period of the date range displayed.
+
+							<br>
+							Range Slider: Allows the viewer to adjust the date range displayed.
 						</td>
 					</tr>
 					<tr>
 						<td>Important Notes</td>
 						<td>
-							Singapore is there I promise
+							Data was obtained by exporting my Letterboxd, via the Data tab of Account settings. In the zip file that was given, only diary.csv was used.
+
+							<br><br>
+							The data was processed using Python and Pandas before being visualised with Plotly. Date(date that I added the movie to my diary) and Letterboxd URL was removed in this process. Movies before 2026 were removed as well.
+
+							<br><br>
+							Movies containing the tag "cinema" were classified as "Cinema", while all the others were classified as "At Home".
 						</td>
 					</tr>
+
 					<tr>
 						<td>Access</td>
 						<td>
-							<b>Population</b>
+							<b>Download or view the dataset:</b>
 
-							<br><a href="https://ourworldindata.org/grapher/population?tab=discrete-bar&time=latest&country=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&mapSelect=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&globe=1&globeRotation=7.46%2C113.96&globeZoom=2.5&overlay=download-data ">https://ourworldindata.org/grapher/population?tab=discrete-bar&time=latest&country=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&mapSelect=BRN~KHM~IDN~LAO~MYS~MMR~PHL~SGP~THA~TLS~VNM&globe=1&globeRotation=7.46%2C113.96&globeZoom=2.5&overlay=download-data </a>
+							<br><br>
+							<a href="https://drive.google.com/file/d/1d-WFMnggzhC4pa8gBo099Puk9GghjP3m/view?usp=sharing">https://drive.google.com/file/d/1d-WFMnggzhC4pa8gBo099Puk9GghjP3m/view?usp=sharing</a>
 
-							<br><br><b>Map</b>
-							<br><a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/</a>
+							<br><br>
+							Contact the author via email,
 						</td>
 					</tr>
 				</table>
 			</section>
 			<section>
 				<h3>Acknowledgement of generative "AI" use</h3>
-				<p>I used ChatGPT (OpenAI, 2026) in module 8 to help troubleshoot my python code, specificly the position of the texts in the visualisation.</p>
+				<p>I used ChatGPT (OpenAI, 2026) in module 9 to help troubleshoot my python code, specifically to figure out the range selector and slider.</p>
 			</section>
 		</main>
 		<footer>
